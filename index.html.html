@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Talkatone Plus - Payment Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+        padding: 20px;
+        text-align: center;
+        color: #333;
+      }
+      .container {
+        background: #fff;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 500px;
+        margin: auto;
+      }
+      h1 {
+        color: #2c3e50;
+      }
+      .price {
+        font-size: 24px;
+        color: #27ae60;
+        margin: 10px 0;
+      }
+      .wallet-address {
+        font-family: monospace;
+        background: #eee;
+        padding: 10px;
+        border-radius: 5px;
+        word-break: break-all;
+        margin: 10px 0;
+      }
+      .note {
+        font-size: 14px;
+        color: #666;
+        margin-top: 20px;
+      }
+      img.qr {
+        margin: 15px 0;
+        width: 150px;
+        height: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Talkatone Plus</h1>
+      <p>
+        <strong>Product Description:</strong><br />
+        Talkatone Plus available. The subscription is already paid. No code
+        limit and receive codes from WhatsApp, Telegram, and others.
+      </p>
+
+      <div class="price">Price: $7 (USDT)</div>
+
+      <h3>Send USDT (TRC20) to:</h3>
+      <div class="wallet-address">TJ6qo5TgTNWnXfqmeMN2EonQqfrHm3HRto</div>
+
+      <p>Scan the QR code to pay:</p>
+      <img
+        class="qr"
+        src="https://api.qrserver.com/v1/create-qr-code/?data=TJ6qo5TgTNWnXfqmeMN2EonQqfrHm3HRto&size=150x150"
+        alt="USDT Wallet QR Code"
+      />
+
+      <div class="note">
+        ⚠️ Please double-check the wallet address before sending. Only send
+        <strong>USDT via TRC20</strong> network.<br />
+        Incase of a bulk purchase, mutiply the quantity by the initial prize.
+        After payment, contact us with proof of transaction to receive your
+        service.
+      </div>
+    </div>
+  </body>
+</html>
